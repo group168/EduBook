@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box1">
+        <div class="img1">
+          <a href="index.html"
+            ><img class="img3" src="./images/img/logo5.png"
+          /></a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="./index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./images/img/logo.png" alt="easyclass" />
+                <h4>EduBook</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Đăng nhập</h2>
+                <h6>Bạn mới đến EduBook?</h6>
+                <a href="#" class="toggle">Đăng ký</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Tên đăng nhập</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Mật khẩu</label>
+                </div>
+
+                <input type="submit" value="Đăng nhập" class="sign-btn" />
+
+                <p class="text">
+                  Quên mật khẩu?
+                  <a href="#">Giúp đỡ</a>
+                </p>
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./images/img/logo.png" alt="easyclass" />
+                <h4>EduBook</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Đăng kí</h2>
+                <h6>Bạn đã có tài khoản?</h6>
+                <a href="#" class="toggle">Đăng nhập </a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Tên đăng nhập</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Mật khẩu</label>
+                </div>
+
+                <input type="submit" value="Đăng ký" class="sign-btn" />
+
+                <p class="text">
+                  Băng cách đăng ký, tôi đồng ý với
+                  <a href="#">Điều khoản dịch vụ</a> and
+                  <a href="#">Chính sách bảo mật</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>
