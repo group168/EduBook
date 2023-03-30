@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: rgb(242, 167, 55);
+  background-color: rgb(242, 65, 55);
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -301,6 +301,10 @@ main.sign-up-mode .carousel {
   width: 1.1rem;
   background-color: #151111;
   border-radius: 1rem;
+}
+.__new--text a {
+  color: blue;
+  text-decoration: none;
 }
 
 @media (max-width: 850px) {
