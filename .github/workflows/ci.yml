@@ -5,6 +5,9 @@ on:
       - "!README.md"
     branches:
       - develop
+      - main
+      - feature
+      - hotfixes
   pull_request:
     type: [opened, reopened, synchronize, labeled, unlabeled]
     branches:
